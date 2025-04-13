@@ -1,0 +1,2 @@
+-- telegram_messages.sql
+-- Table for TradingV1 messages
