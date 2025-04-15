@@ -1,5 +1,5 @@
 # test_config.py
-from helper.config_manager import ConfigManager
+from helper.xml_config_manager import ConfigManager
 
 config = ConfigManager("config/combined_config.xml")
 print("Log dir:", config.log_dir_name)  # logs

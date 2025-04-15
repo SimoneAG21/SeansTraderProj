@@ -8,8 +8,8 @@ param (
 $pythonPath = "C:\pyver\py312"
 
 # Add the Python path to the current session's PATH environment variable
-$env:PATH = "$pythonPath;" + $env:PATH
-
+$env:PATH = "$pythonPath;" + $env:PATH 
+$env:PATH +=  ";C:\Program Files\PostgreSQL\17\bin"
 # Verify that Python is accessible
 Write-Host "Python path added: $pythonPath"
 Write-Host "Current Python version:"
