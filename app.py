@@ -8,7 +8,7 @@ app = Flask(__name__, template_folder="templates")
 process_manager = ProcessManager()
 
 # Start telegram fetch script (runs every 5 minutes)
-process_manager.start_process("telegram_fetch", fetch_telegram_messages, schedule_minutes=5)
+#process_manager.start_process("telegram_fetch", fetch_telegram_messages, schedule_minutes=5)
 
 @app.route("/")
 def index():

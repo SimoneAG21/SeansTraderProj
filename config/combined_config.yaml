@@ -1,0 +1,18 @@
+database:
+  user: u64g8eocr7nhul
+  password: p3b8ecfc9a637f11fb55f26fcf499d36f5f6a5c90a59f1c99a40fce32e4b549b7
+  host: ca932070ke6bv1.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com
+  port: 5432
+  database: da1co8rkl4afh
+telegram:
+  api_id: 27715324
+  api_hash: 72f0a5168ab258f7b6cb169c78ff31d6
+  phone: "+14698380038"
+  session_path: sessions/my_telegram_client.session
+processes:
+  - name: channel_sync
+    template: sync_template
+templates:
+  sync_template:
+    enabled: true
+    retry_count: 3

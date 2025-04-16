@@ -1,0 +1,5 @@
+schedule:
+  interval_minutes: 180
+log_file: channel_sync
+includes:
+  - combined_config.yaml
